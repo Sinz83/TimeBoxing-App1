@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6347C6AA29EBDF2700103A61 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6A929EBDF2700103A61 /* Main.swift */; };
+		6347C6AC29EBDF2700103A61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6AB29EBDF2700103A61 /* ContentView.swift */; };
+		6347C6AE29EBDF2A00103A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6347C6AD29EBDF2A00103A61 /* Assets.xcassets */; };
+		6347C6B129EBDF2A00103A61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6347C6B029EBDF2A00103A61 /* Preview Assets.xcassets */; };
+		6347C6B329EBDF2A00103A61 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6B229EBDF2A00103A61 /* Persistence.swift */; };
+		6347C6B629EBDF2A00103A61 /* TimeBoxing_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6B429EBDF2A00103A61 /* TimeBoxing_App.xcdatamodeld */; };
+		6347C6C129EBDF2A00103A61 /* TimeBoxing_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6C029EBDF2A00103A61 /* TimeBoxing_AppTests.swift */; };
+		6347C6CB29EBDF2A00103A61 /* TimeBoxing_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6CA29EBDF2A00103A61 /* TimeBoxing_AppUITests.swift */; };
+		6347C6CD29EBDF2A00103A61 /* TimeBoxing_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6CC29EBDF2A00103A61 /* TimeBoxing_AppUITestsLaunchTests.swift */; };
+		6347C6DA29EBDF6600103A61 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6D929EBDF6600103A61 /* SwiftUIView.swift */; };
+		6347C6DB29EBDF6600103A61 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6D929EBDF6600103A61 /* SwiftUIView.swift */; };
+		6347C6DC29EBDF6600103A61 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347C6D929EBDF6600103A61 /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6347C6BD29EBDF2A00103A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6347C69E29EBDF2700103A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6347C6A529EBDF2700103A61;
+			remoteInfo = "TimeBoxing App";
+		};
+		6347C6C729EBDF2A00103A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6347C69E29EBDF2700103A61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6347C6A529EBDF2700103A61;
+			remoteInfo = "TimeBoxing App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6347C6A629EBDF2700103A61 /* TimeBoxing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeBoxing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6347C6A929EBDF2700103A61 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		6347C6AB29EBDF2700103A61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6347C6AD29EBDF2A00103A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6347C6B029EBDF2A00103A61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6347C6B229EBDF2A00103A61 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6347C6B529EBDF2A00103A61 /* TimeBoxing_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeBoxing_App.xcdatamodel; sourceTree = "<group>"; };
+		6347C6B729EBDF2A00103A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6347C6BC29EBDF2A00103A61 /* TimeBoxing AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeBoxing AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6347C6C029EBDF2A00103A61 /* TimeBoxing_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBoxing_AppTests.swift; sourceTree = "<group>"; };
+		6347C6C629EBDF2A00103A61 /* TimeBoxing AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeBoxing AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6347C6CA29EBDF2A00103A61 /* TimeBoxing_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBoxing_AppUITests.swift; sourceTree = "<group>"; };
+		6347C6CC29EBDF2A00103A61 /* TimeBoxing_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBoxing_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6347C6D929EBDF6600103A61 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6347C6A329EBDF2700103A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6347C6B929EBDF2A00103A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6347C6C329EBDF2A00103A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6347C69D29EBDF2700103A61 = {
+			isa = PBXGroup;
+			children = (
+				6347C6A829EBDF2700103A61 /* TimeBoxing App */,
+				6347C6BF29EBDF2A00103A61 /* TimeBoxing AppTests */,
+				6347C6C929EBDF2A00103A61 /* TimeBoxing AppUITests */,
+				6347C6A729EBDF2700103A61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6347C6A729EBDF2700103A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6347C6A629EBDF2700103A61 /* TimeBoxing App.app */,
+				6347C6BC29EBDF2A00103A61 /* TimeBoxing AppTests.xctest */,
+				6347C6C629EBDF2A00103A61 /* TimeBoxing AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6347C6A829EBDF2700103A61 /* TimeBoxing App */ = {
+			isa = PBXGroup;
+			children = (
+				6347C6A929EBDF2700103A61 /* Main.swift */,
+				6347C6D929EBDF6600103A61 /* SwiftUIView.swift */,
+				6347C6AB29EBDF2700103A61 /* ContentView.swift */,
+				6347C6AD29EBDF2A00103A61 /* Assets.xcassets */,
+				6347C6B229EBDF2A00103A61 /* Persistence.swift */,
+				6347C6B729EBDF2A00103A61 /* Info.plist */,
+				6347C6B429EBDF2A00103A61 /* TimeBoxing_App.xcdatamodeld */,
+				6347C6AF29EBDF2A00103A61 /* Preview Content */,
+			);
+			path = "TimeBoxing App";
+			sourceTree = "<group>";
+		};
+		6347C6AF29EBDF2A00103A61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6347C6B029EBDF2A00103A61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6347C6BF29EBDF2A00103A61 /* TimeBoxing AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6347C6C029EBDF2A00103A61 /* TimeBoxing_AppTests.swift */,
+			);
+			path = "TimeBoxing AppTests";
+			sourceTree = "<group>";
+		};
+		6347C6C929EBDF2A00103A61 /* TimeBoxing AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6347C6CA29EBDF2A00103A61 /* TimeBoxing_AppUITests.swift */,
+				6347C6CC29EBDF2A00103A61 /* TimeBoxing_AppUITestsLaunchTests.swift */,
+			);
+			path = "TimeBoxing AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6347C6A529EBDF2700103A61 /* TimeBoxing App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6347C6D029EBDF2A00103A61 /* Build configuration list for PBXNativeTarget "TimeBoxing App" */;
+			buildPhases = (
+				6347C6A229EBDF2700103A61 /* Sources */,
+				6347C6A329EBDF2700103A61 /* Frameworks */,
+				6347C6A429EBDF2700103A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimeBoxing App";
+			productName = "TimeBoxing App";
+			productReference = 6347C6A629EBDF2700103A61 /* TimeBoxing App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6347C6BB29EBDF2A00103A61 /* TimeBoxing AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6347C6D329EBDF2A00103A61 /* Build configuration list for PBXNativeTarget "TimeBoxing AppTests" */;
+			buildPhases = (
+				6347C6B829EBDF2A00103A61 /* Sources */,
+				6347C6B929EBDF2A00103A61 /* Frameworks */,
+				6347C6BA29EBDF2A00103A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6347C6BE29EBDF2A00103A61 /* PBXTargetDependency */,
+			);
+			name = "TimeBoxing AppTests";
+			productName = "TimeBoxing AppTests";
+			productReference = 6347C6BC29EBDF2A00103A61 /* TimeBoxing AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6347C6C529EBDF2A00103A61 /* TimeBoxing AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6347C6D629EBDF2A00103A61 /* Build configuration list for PBXNativeTarget "TimeBoxing AppUITests" */;
+			buildPhases = (
+				6347C6C229EBDF2A00103A61 /* Sources */,
+				6347C6C329EBDF2A00103A61 /* Frameworks */,
+				6347C6C429EBDF2A00103A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6347C6C829EBDF2A00103A61 /* PBXTargetDependency */,
+			);
+			name = "TimeBoxing AppUITests";
+			productName = "TimeBoxing AppUITests";
+			productReference = 6347C6C629EBDF2A00103A61 /* TimeBoxing AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6347C69E29EBDF2700103A61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6347C6A529EBDF2700103A61 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6347C6BB29EBDF2A00103A61 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6347C6A529EBDF2700103A61;
+					};
+					6347C6C529EBDF2A00103A61 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6347C6A529EBDF2700103A61;
+					};
+				};
+			};
+			buildConfigurationList = 6347C6A129EBDF2700103A61 /* Build configuration list for PBXProject "TimeBoxing App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6347C69D29EBDF2700103A61;
+			productRefGroup = 6347C6A729EBDF2700103A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6347C6A529EBDF2700103A61 /* TimeBoxing App */,
+				6347C6BB29EBDF2A00103A61 /* TimeBoxing AppTests */,
+				6347C6C529EBDF2A00103A61 /* TimeBoxing AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6347C6A429EBDF2700103A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6347C6B129EBDF2A00103A61 /* Preview Assets.xcassets in Resources */,
+				6347C6AE29EBDF2A00103A61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6347C6BA29EBDF2A00103A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6347C6C429EBDF2A00103A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6347C6A229EBDF2700103A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6347C6B329EBDF2A00103A61 /* Persistence.swift in Sources */,
+				6347C6B629EBDF2A00103A61 /* TimeBoxing_App.xcdatamodeld in Sources */,
+				6347C6AC29EBDF2700103A61 /* ContentView.swift in Sources */,
+				6347C6AA29EBDF2700103A61 /* Main.swift in Sources */,
+				6347C6DA29EBDF6600103A61 /* SwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6347C6B829EBDF2A00103A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6347C6DB29EBDF6600103A61 /* SwiftUIView.swift in Sources */,
+				6347C6C129EBDF2A00103A61 /* TimeBoxing_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6347C6C229EBDF2A00103A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6347C6CD29EBDF2A00103A61 /* TimeBoxing_AppUITestsLaunchTests.swift in Sources */,
+				6347C6CB29EBDF2A00103A61 /* TimeBoxing_AppUITests.swift in Sources */,
+				6347C6DC29EBDF6600103A61 /* SwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6347C6BE29EBDF2A00103A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6347C6A529EBDF2700103A61 /* TimeBoxing App */;
+			targetProxy = 6347C6BD29EBDF2A00103A61 /* PBXContainerItemProxy */;
+		};
+		6347C6C829EBDF2A00103A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6347C6A529EBDF2700103A61 /* TimeBoxing App */;
+			targetProxy = 6347C6C729EBDF2A00103A61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6347C6CE29EBDF2A00103A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6347C6CF29EBDF2A00103A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6347C6D129EBDF2A00103A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeBoxing App/Preview Content\"";
+				DEVELOPMENT_TEAM = R8AZTWSLHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SabrinaInzillo.TimeBoxing-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6347C6D229EBDF2A00103A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeBoxing App/Preview Content\"";
+				DEVELOPMENT_TEAM = R8AZTWSLHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SabrinaInzillo.TimeBoxing-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6347C6D429EBDF2A00103A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8AZTWSLHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SabrinaInzillo.TimeBoxing-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeBoxing App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeBoxing App";
+			};
+			name = Debug;
+		};
+		6347C6D529EBDF2A00103A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8AZTWSLHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SabrinaInzillo.TimeBoxing-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeBoxing App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeBoxing App";
+			};
+			name = Release;
+		};
+		6347C6D729EBDF2A00103A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8AZTWSLHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SabrinaInzillo.TimeBoxing-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TimeBoxing App";
+			};
+			name = Debug;
+		};
+		6347C6D829EBDF2A00103A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8AZTWSLHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SabrinaInzillo.TimeBoxing-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TimeBoxing App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6347C6A129EBDF2700103A61 /* Build configuration list for PBXProject "TimeBoxing App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6347C6CE29EBDF2A00103A61 /* Debug */,
+				6347C6CF29EBDF2A00103A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6347C6D029EBDF2A00103A61 /* Build configuration list for PBXNativeTarget "TimeBoxing App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6347C6D129EBDF2A00103A61 /* Debug */,
+				6347C6D229EBDF2A00103A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6347C6D329EBDF2A00103A61 /* Build configuration list for PBXNativeTarget "TimeBoxing AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6347C6D429EBDF2A00103A61 /* Debug */,
+				6347C6D529EBDF2A00103A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6347C6D629EBDF2A00103A61 /* Build configuration list for PBXNativeTarget "TimeBoxing AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6347C6D729EBDF2A00103A61 /* Debug */,
+				6347C6D829EBDF2A00103A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6347C6B429EBDF2A00103A61 /* TimeBoxing_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6347C6B529EBDF2A00103A61 /* TimeBoxing_App.xcdatamodel */,
+			);
+			currentVersion = 6347C6B529EBDF2A00103A61 /* TimeBoxing_App.xcdatamodel */;
+			path = TimeBoxing_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6347C69E29EBDF2700103A61 /* Project object */;
+}
